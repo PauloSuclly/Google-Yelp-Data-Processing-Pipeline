@@ -6,11 +6,8 @@ One of the most important things on this project is the treatment and organizati
 
 ## Parts of the Process
 - [Data Lake](#data-lake)
-
 - [Cloud Functions](#cloud-functions)
-
 - [Data Warehouse](#data-warehouse)
-
 - [Technologies](#technologies)
 
 ## Data Lake
