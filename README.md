@@ -5,10 +5,13 @@ One of the most important things on this project is the treatment and organizati
 <img src="./_src/Data_Warehouse.png" alt="Data Warehouse Process">
 
 ## Parts of the Process
-[Data Lake](#Data-Lake)
-</br>
+- [Data Lake](#data-lake)
 
-[Technologies](#Technologies)
+- [Cloud Functions](#cloud-functions)
+
+- [Data Warehouse](#data-warehouse)
+
+- [Technologies](#technologies)
 
 ## Data Lake
 
