@@ -2,7 +2,7 @@
 
 One of the most important things on this project is the treatment and organization of the data. The following shows the data processing scheme. 
 
-<img src="./_src/Data_Warehouse.png" alt="Data Warehouse Process">
+<img src="./_src/Data_Warehous.png" alt="Data Warehouse Process">
 
 ## Parts of the Process
 - [Data Lake](#data-lake)
