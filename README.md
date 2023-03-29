@@ -5,6 +5,7 @@ One of the most important things on this project is the treatment and organizati
 <img src="./_src/Data_Warehouse.png" alt="Data Warehouse Process">
 
 ## Parts of the Process
+
 - [Data Lake](#data-lake)
 - [Cloud Functions](#cloud-functions)
 - [Data Warehouse](#data-warehouse)
@@ -20,7 +21,7 @@ A Data Lake is a data storage system that allows large amounts of data to be sto
 </br>
 **Why Google Cloud Storage ?**
 </br>
-We choosed Google Cloud Services in general, because they have an amazing UI, very easy to use and very complete. Also and important fact is their competitive prices, We found no reason to don't Google Cloud Services.
+We chosed Google Cloud Services in general, because they have an amazing UI, very easy to use and very complete. Also and important fact is their competitive prices, We found no reason to don't Google Cloud Services.
 </br>
 
 <p align=center><img src="./_src/Data_Lake_Screenshot.PNG" alt="Data Lake"></p>
@@ -28,14 +29,20 @@ We choosed Google Cloud Services in general, because they have an amazing UI, ve
 
 ## Cloud Functions
 
-We used Google Cloud Functions for the task of extracting the data from the Data lake, transforming/cleaning it and loading it in our Data Warehouse, which will be explained in detail later.
+Google Cloud Functions service will do the task of extracting the data from the Data lake, transforming/cleaning and loading it in our Data Warehouse, which will be explained in detail later.
 </br>
+**Why We used Google Cloud Functions?**
+</br>
+We used Cloud Functions because it will help us to automate the ETL process. The functions stored there will be associated to a trigger, that trigger consist into detect when a new file is uploaded into our Data Lake, after that the Transformation functions will do their job and will clean and transform the raw data and store the processed data into our Data Warehouse.
 
 <p align=center><img src="./_src/Cloud_Functions.PNG" alt="Cloud Functions"></p>
 
 ## Data Warehouse
-
-After cleaning the data and making all the transformations
+**What is the Google BigQuery service?**
+</br>
+Google BigQuery is a Data Warehouse Google Service that We are going to use to store and struct our processed data. Using Google SQL We will be able to make our own queries. Data Scientist team and Data Analytics team will use this structured data for their different needs.
+</br>
+The Data Warehouse will be able to be updated with new data at anytime from external sources. In this project, to increase our data, We will extract new data from an API. This process will be addressed in the section referring to the API.
 
 </br>
 
@@ -46,9 +53,13 @@ After cleaning the data and making all the transformations
 * Google Cloud Plataform (GCP)
 * Google Cloud Storage
 * Google Cloud Function
-* Google Big Query
+* Google BigQuery
 * Pandas
 * Python
+
+
+
+
 
 
 
