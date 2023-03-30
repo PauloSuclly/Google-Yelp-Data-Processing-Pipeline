@@ -34,6 +34,8 @@ Google Cloud Functions service will do the task of extracting the data from the 
 **Why We used Google Cloud Functions?**
 </br>
 We used Cloud Functions because it will help us to automate the ETL process. The functions stored there will be associated to a trigger, that trigger consist into detect when a new file is uploaded into our Data Lake, after that the Transformation functions will do their job and will clean and transform the raw data and store the processed data into our Data Warehouse.
+</br>
+Also it will automate the add of new data. One of the functions will clean/transform this new external data and will run a query in Google BigQuery to update the currently data.
 
 <p align=center><img src="./_src/Cloud_Functions.PNG" alt="Cloud Functions"></p>
 
@@ -56,7 +58,6 @@ The Data Warehouse will be able to be updated with new data at anytime from exte
 * Google BigQuery
 * Pandas
 * Python
-
 
 
 
